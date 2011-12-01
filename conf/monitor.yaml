@@ -1,0 +1,17 @@
+##Mobiles to send alter
+mobiles: 
+         - "88888888"
+         - "99999999"
+
+##Active supervisors number should be in zk
+supervisors: 3
+
+##Topologys list
+topologies: 
+          - "topology1"
+          - "topology2"
+
+nimbus.check: true
+
+##Check interval in minutes
+interval: 5

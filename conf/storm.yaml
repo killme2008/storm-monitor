@@ -1,0 +1,25 @@
+########### These MUST be filled in for a storm configuration
+storm.zookeeper.root: "/mystorm"
+storm.zookeeper.servers:
+     - "host1"
+     - "host2"
+nimbus.host: "nimbus"
+storm.local.dir: "/home/admin/stormdata"
+supervisor.slots.ports:
+    - 6700
+    - 6701
+    - 6702
+    - 6703 
+    - 6704
+supervisor.childopts: "-Xmx512m"
+# ##### These may optionally be filled in:
+#    
+## Map of tokens to a serialization class. tokens less than 32 are reserved by storm.
+## Tokens are written on the wire to identify the field.
+# topology.serializations: 
+#     - "org.mycompany.MyObjectSerialization"
+#     - "org.mycompany.MyOtherObjectSerialization"
+## Locations of the drpc servers
+# drpc.servers:
+#     - "server1"
+#     - "server2"
