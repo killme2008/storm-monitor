@@ -1,9 +1,9 @@
-##Mobiles to send alter
+##Mobiles to send alters
 mobiles: 
          - "88888888"
          - "99999999"
 
-##Active supervisors number should be in zk
+##Active supervisors number should be in zookeeper
 supervisors: 3
 
 ##Topologys list

@@ -1,13 +1,13 @@
 ;;
-;;A storm monitor to check if storm is running fine.
+;;A storm monitor to check if storm is running well.
 ;;Author: boyan (boyan@taobao.com)
 ;;
-(ns taestorm-monitor.core
+(ns storm-monitor.core
   (:use [backtype.storm cluster config log]
         [backtype.storm.zookeeper :only [mk-client]]
-        [taestorm-monitor.alarm :only [alarm]])
+        [storm-monitor.alarm :only [alarm]])
   (:require [backtype.storm [zookeeper :as zk]]
-            [taestorm-monitor [conf :as mc]])
+            [storm-monitor [conf :as mc]])
   (:import (java.net Socket))
   (:require tron)
   (:use [clojure.contrib.string :only [join substring?]]))

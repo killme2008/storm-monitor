@@ -4,13 +4,14 @@
 
 ## Usage
 
-Just clone the source code to your machine,then copy your storm.yaml to conf/storm.yaml,and edit the conf/monitor.yaml,type command
+Just clone the source code to your machine,then copy your storm.yaml to conf/storm.yaml,and edit the conf/monitor.yaml to modify monitor settings.
+Then type command:
 
    sh start.sh
 
 to  start the monitor.
 
-By default, storm-monitor just write alert to logs/monitor.log, you can modify the src/storm_monitor/alarm.clj  to fit your application.For example,send alert to your mobile phone.
+By default, storm-monitor just write alerts to logs/monitor.log, you can modify the src/storm_monitor/alarm.clj  to fit your application.For example,send alert to your mobile phone.
 
 ## License
 
