@@ -7,7 +7,7 @@
 Just clone the source code to your machine,then copy your storm.yaml to conf/storm.yaml,and edit the conf/monitor.yaml to modify monitor settings.
 Then type command:
 
-   sh start.sh
+	    sh start.sh
 
 to  start the monitor.
 
