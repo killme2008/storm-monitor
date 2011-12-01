@@ -13,6 +13,13 @@ to  start the monitor.
 
 By default, storm-monitor just write alerts to logs/monitor.log, you can modify the src/storm_monitor/alarm.clj  to fit your application.For example,send alert to your mobile phone.
 
+The logs:
+
+		112  [pool-3-thread-1] INFO  storm-monitor.alarm  - Send alert to 88888888 with message:Topologies [topology1,topology2] have been killed
+		112  [pool-3-thread-1] INFO  storm-monitor.alarm  - Send alert to 99999999 with message:Topologies [topology1,topology2] have been killed
+		112  [pool-3-thread-1] INFO  storm-monitor.alarm  - Send alert to 88888888 with message:Topologies [topology1,topology2] have no active tasks
+		112  [pool-3-thread-1] INFO  storm-monitor.alarm  - Send alert to 99999999 with message:Topologies [topology1,topology2] have no active tasks
+
 ## License
 
 Copyright (C) 2011 
