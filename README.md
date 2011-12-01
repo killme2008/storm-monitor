@@ -6,6 +6,9 @@
 
 Just clone the source code to your machine,then copy your storm.yaml to conf/storm.yaml,and edit the conf/monitor.yaml to modify monitor settings.
 You must install leiningen and exec plugin on your machine.
+
+		lein plugin install lein-exec "0.1"		 
+
 At last, type command:
 
 	    sh start.sh
