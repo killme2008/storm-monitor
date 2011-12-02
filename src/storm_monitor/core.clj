@@ -88,7 +88,8 @@
   (let [msgs (filter #(not (nil? %)) [(check-supervisors) (check-tops) (check-tasks) (check-nimbus)])]
     (if (not-empty msgs)
       (dorun
-       (map  #(alarm mconf %) msgs)))))
+       (map  #(alarm mconf %) msgs))
+      (log-message "All is fine at " (java.util.Date.)))))
 
 ;;start checking
 (tron/periodically :check check-storm (* 60 1000 (long (mconf INTERVAL))))
