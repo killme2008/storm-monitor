@@ -1,4 +1,4 @@
-(defproject storm-monitor "1.0.0-SNAPSHOT"
+(defproject storm-monitor "1.0.0"
   :description "Storm monitor"
   :extra-classpath-dirs ["conf"]
   :dev-dependencies [[lein-exec "0.1"]]
